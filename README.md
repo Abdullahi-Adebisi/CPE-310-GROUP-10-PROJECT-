@@ -2,15 +2,13 @@
 Agricultural Supply Chain Tracking and Product Authenticity System
 
 1. Project Title and Overview
-
-This system is a blockchain-inspired agricultural supply chain
+ This system is a blockchain-inspired agricultural supply chain
 tracking platform built entirely in Python using Object-Oriented
 Programming principles. It addresses the real-world problem of
 food fraud, counterfeiting, and opaque supply chains in Nigeria's
 agricultural sector — challenges that pose significant economic
 and public health risks.
-
-The platform tracks farm-to-market produce including grains
+ The platform tracks farm-to-market produce including grains
 (rice, maize), perishables (tomatoes, peppers), and processed
 goods. Each product batch is assigned a unique identity at the
 farm stage. Every custody transfer — from Farm Producer through
@@ -21,12 +19,10 @@ Quality inspectors issue certificates against recognised
 Nigerian standards (NAFDAC, SON, Organic), and a consumer
 verification function can query the full provenance of any
 batch by its ID, returning an AUTHENTIC or SUSPICIOUS verdict.
-
-The system runs entirely on the command line and requires
+ The system runs entirely on the command line and requires
 no graphical interface or external database.
 
 2. Team Members
-   
 Full Name| Matric Number| GitHub Username
 Adebisi Abdullahi Adeyemi| CPE/2023/1132| Abdullahi-Adebisi
 Adeoye Lawrence| CPE/2024/2007| Lawrenxe-01
@@ -46,9 +42,8 @@ ajayioluwaseyi088-sudo|
 Adekunle Gbolahan Tofunmi| 
 CPE/2023/1131
 
-3. OOP Concepts Demonstrated
-
-OOP Concept| Location in Code| Which Week
+4. OOP Concepts Demonstrated
+ OOP Concept| Location in Code| Which Week
 Classes & Objects| src/product_batch.py, class ProductBatch| Week 1
 str method| src/product_batch.py, line ~95| Week 1
 repr method| src/product_batch.py, line ~103| Week 1
@@ -81,8 +76,7 @@ Aggregation| ProductBatch references SupplyChainActor| Week 5
 Realization (ABC arrows)| uml/class_diagram.puml, all ABC relationships| Week 5
 
 4. System Architecture
-
-"UML Class Diagram" (uml/class_diagram.png)
+ "UML Class Diagram" (uml/class_diagram.png)
 
 The system is organised into five clearly separated layers:
 
@@ -92,7 +86,7 @@ conditions: LedgerTamperingError, InvalidCustodyTransferError,
 CertificateExpiredError, and BatchNotFoundError. All inherit
 from Python's built-in Exception class.
 
-Product Layer — ProductBatch in src/product_batch.py
+ Product Layer — ProductBatch in src/product_batch.py
 represents a traceable unit of agricultural produce. Its
 batch_id is validated against the pattern NG-YYYY-XXXXXXXX
 using a compiled regular expression. All numeric attributes
@@ -136,8 +130,7 @@ because actors exist independently of any batch and can
 hold custody of multiple batches over their lifetime.
 
 5. How to Run
-
-Clone the Repository
+ Clone the Repository
 
 git clone https://github.com/yourusername/your_repo_name.git
 cd your_repo_name
