@@ -24,21 +24,35 @@ no graphical interface or external database.
 
 2. Team Members
 Full Name| Matric Number| GitHub Username
+
 Adebisi Abdullahi Adeyemi| CPE/2023/1132| Abdullahi-Adebisi
+
 Adeoye Lawrence| CPE/2024/2007| Lawrenxe-01
+
 Oluwakayode iyanuoluwa temiloluwa| CPE/2024/2006| oluwakayodeiyanuoluwa242006-lang
+
 Adebayo Yusuf Adebisi| CPE/2023/1134| yusufadebisi82
+
 James Samuel Sunday| CPE/2023/1123| jamesamuel2411-max
+
 Adeniyi Johnson Sanmi| CPE/2024/2002| Adeniyi-Johnson
+
 Ojo kelvin inioluwa cpe| CPE/2023/1130| BIGKELV04
+
 Adekunle Akinwale Trust| CPE/2024/2001| trust-tech44
+
 Ajileye Samuel Ifeoluwa| CPE/2024/2004| Samuel-145
+
 Ayomikun Onyebuchi Osinachi| CPE/2023/1133| 
+
 Jonathan David Osemekhona| CPE/2023/1124| David-Jonathan1
-Okoronkwo Cecilia Ijeoma| CPE/2024/2005| ceciliaprince4love-a11y|
+
+Okoronkwo Cecilia Ijeoma| CPE/2024/2005| ceciliaprince4love-a11y
+
 Ajayi Oluwaseyi Cornelius| 
 CPE/2024/2003|
-ajayioluwaseyi088-sudo|
+ajayioluwaseyi088-sudo
+
 Adekunle Gbolahan Tofunmi| 
 CPE/2023/1131
 
