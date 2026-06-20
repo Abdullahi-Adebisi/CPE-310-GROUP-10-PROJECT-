@@ -146,5 +146,5 @@ hold custody of multiple batches over their lifetime.
 5. How to Run
  Clone the Repository
 
-git clone https://github.com/yourusername/your_repo_name.git
+git clone https://github.com/Abdullahi-Adebisi/CPE-310-GROUP-10-PROJECT-/tree/main
 cd your_repo_name
